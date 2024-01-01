@@ -16,6 +16,9 @@ function generateToast(event) {
   let prompt = `User instructions are: Please generate an extremely short, rhyming toast about ${instructionsInput.value} and separate each line with a <br />`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let toastElement = document.querySelector("#toast");
+  toastElement.classList.remove("hidden");
+
   axios.get(apiUrl).then(displayToast);
 }
 
