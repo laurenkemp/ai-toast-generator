@@ -3,30 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,500;9..40,700&family=Taviraj:wght@200;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Toast Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Toast Generator. Cheers!</h1>
-    </header>
-    <main>
-      <form>
-        <input type="text" autofocus="on" required autocomplete="off" />
-        <input type="submit" />
-      </form>
+    <div class="container">
+      <header>
+        <h1>
+          Welcome to the AI Toast Generator <br />
+          Cheers!
+        </h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            autofocus="on"
+            required
+            autocomplete="off"
+            class="search-input"
+            placeholder="What do you want to toast to?"
+          />
+          <input type="submit" class="search-button" />
+        </form>
 
-      <div>Result here.</div>
-    </main>
-    <footer>
-      This AI project was coded by Lauren Kemp and is
-      <a
-        href="https://github.com/laurenkemp/ai-toast-generator.git"
-        target="_blank"
-        >open-sourced</a
-      >
-      on GitHub.
-    </footer>
+        <div id="result" class="result">Result here.</div>
+      </main>
+      <footer>
+        This AI project was coded by Lauren Kemp and is
+        <a
+          href="https://github.com/laurenkemp/ai-toast-generator.git"
+          target="_blank"
+          >open-sourced</a
+        >
+        on GitHub.
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,73 @@
+:root {
+  --brand-green: #0e9e54;
+  --brand-light-purple: #f4f2fe;
+  --brand-pink: #f7b1cc;
+  --brand-orange: #f15e22;
+  --brand-beige: #f3ede5;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font: "DM Sans", sans-serif;
+  --secondary-font: "Taviraj", serif;
+}
+
+body {
+  background-color: var(--brand-green);
+}
+
+h1 {
+  font-family: var(--primary-font);
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+form {
+  text-align: center;
+  margin: 40px;
+}
+
+footer {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  margin: 40px;
+}
+
+.search-button {
+  font-family: var(--primary-font);
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+.container {
+  margin: 100px auto;
+  max-width: 700px;
+}
+
+.result {
+  color: var(--brand-green);
+  font-family: var(--primary-font);
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+.search-input {
+  padding: 10px;
+  border-radius: 20px;
+  width: 60%;
+}
