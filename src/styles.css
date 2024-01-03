@@ -93,6 +93,10 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  .container {
+    margin-top: 20px;
+  }
+
   h1 {
     font-size: 30px;
   }
@@ -102,7 +106,7 @@ a:hover {
 
   .search-input {
     width: 80%;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
   }
 
   footer {
@@ -113,8 +117,8 @@ a:hover {
   .result {
     font-size: 15px;
     padding: 25px;
-    max-width: 60%;
+    max-width: 65%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
