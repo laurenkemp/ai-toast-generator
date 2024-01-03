@@ -97,7 +97,7 @@ a:hover {
     font-size: 30px;
   }
   img {
-    max-width: 400px;
+    max-width: 70%;
   }
 
   .search-input {
@@ -114,5 +114,6 @@ a:hover {
     padding: 25px;
     max-width: 60%;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
 }
