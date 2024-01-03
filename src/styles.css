@@ -34,7 +34,7 @@ form {
 
 footer {
   font-family: var(--primary-font);
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
   color: white;
   margin: 40px;
@@ -81,4 +81,22 @@ a:hover {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  img {
+    max-width: 250px;
+  }
+
+  .search-input {
+    width: 80%;
+    margin-bottom: 8px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
 }
