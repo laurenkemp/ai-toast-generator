@@ -37,7 +37,8 @@ footer {
   font-size: 12px;
   text-align: center;
   color: white;
-  margin: 40px;
+  margin: 0 auto;
+  max-width: 350px;
 }
 
 .container {
@@ -69,7 +70,8 @@ footer {
   padding: 40px;
   border: 2px solid black;
   line-height: 1.5;
-  max-width: 500px;
+  max-width: 420px;
+  margin-bottom: 30px;
 }
 
 a {
@@ -95,7 +97,7 @@ a:hover {
     font-size: 30px;
   }
   img {
-    max-width: 250px;
+    max-width: 400px;
   }
 
   .search-input {
