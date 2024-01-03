@@ -43,7 +43,7 @@ footer {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .search-button {
@@ -63,12 +63,13 @@ footer {
   font-family: var(--primary-font);
   font-size: 18px;
   text-align: center;
-  margin: 20px;
+  margin: 0 auto;
   background-color: white;
   border-radius: 20px;
-  padding: 50px;
+  padding: 40px;
   border: 2px solid black;
   line-height: 1.5;
+  max-width: 500px;
 }
 
 a {
@@ -104,5 +105,12 @@ a:hover {
 
   footer {
     font-size: 10px;
+  }
+
+  .result {
+    font-size: 15px;
+    padding: 25px;
+    max-width: 60%;
+    margin: 0 auto;
   }
 }
