@@ -40,6 +40,12 @@ footer {
   margin: 40px;
 }
 
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .search-button {
   font-family: var(--primary-font);
   padding: 10px;
