@@ -97,7 +97,7 @@ a:hover {
     font-size: 30px;
   }
   img {
-    max-width: 70%;
+    max-width: 80%;
   }
 
   .search-input {
@@ -107,6 +107,7 @@ a:hover {
 
   footer {
     font-size: 10px;
+    max-width: 50%;
   }
 
   .result {
