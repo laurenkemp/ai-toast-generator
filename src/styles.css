@@ -4,7 +4,7 @@
   --brand-pink: #f7b1cc;
   --brand-orange: #f15e22;
   --brand-beige: #f3ede5;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 5px 4px 0px black;
   --primary-font: "DM Sans", sans-serif;
   --secondary-font: "Taviraj", serif;
 }
@@ -45,6 +45,7 @@ footer {
   max-width: 600px;
   margin: 0 auto;
   padding: 10px;
+  box-shadow: var(--box-shadow);
 }
 
 .search-button {
